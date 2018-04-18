@@ -1,3 +1,8 @@
+/**
+ * @todo fazer os handlers do click do botao record
+ * e adicionar os handles para as teclas s t r 
+ */
+
 let timer = document.getElementById(`counter`);
 let btnStart = document.getElementById(`start-stop`);
 let btnReset = document.getElementById('reset');
