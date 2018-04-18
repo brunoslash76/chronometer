@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(144, 245, 105);
+    color: #333;
+    transition: .3s ease-in-out;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: rgb(165, 121, 0);
+    background-color: rgb(168, 218, 89);
+}
+
+button:disabled,
+button[disabled] {
+    color: #ccc;
+    font-weight: normal;
+    background-color: #eee;
+}
+
+button[disabled]:hover {
+    background-color: #eee;
+    color: rgb(165, 121, 0);
+}
+
+.stop-watch__container {
+    display: block;
+}
+
+.stop-watch__time-counter {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    border: 10px #178c23 solid;
+    border-radius: 50%;
+    color: green;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    font-family: sans-serif;
+}
+
+.stop-watch__controls {
+    display: flex;
+    margin: 0 auto;
+    width: 300px;
+    justify-content: space-evenly;
+}
+
+.recorded-laps{
+    width: 90%;
+    margin: 20px auto;
+    color: white;
+}
+
+span#miliseconds{
+    font-size: 35px;
+    margin-left: 10px;
+}
